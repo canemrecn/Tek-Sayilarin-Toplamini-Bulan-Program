@@ -1,0 +1,19 @@
+package tstblp;
+
+import java.util.Scanner;
+
+public class tst {
+	public static void main(String[] args) {
+		Scanner inpScanner = new Scanner(System.in);
+		int number;
+		while (true) {
+			System.out.println("Sayi Giriniz: ");
+			number = inpScanner.nextInt();
+			if (number < 0) {
+				break;	
+			}
+			System.out.println(number);
+		}
+	}
+
+}
